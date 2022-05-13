@@ -1,0 +1,44 @@
+.form-container {
+  height: 420px;
+}
+
+.logster, .logstercol-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.logrow-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.logstercol-container {
+  width: 45%;
+  border-left: black 2px dotted;
+}
+
+input[type=text],input[type=password] {
+  border: none;
+  border-bottom: black 1px dotted;
+  width: 150%;
+}
+
+
+#rockon {
+  width: 40%;
+  margin-right: 30px;
+  /* background-color: purple; */
+}
+
+#tix {
+  display: none;
+}

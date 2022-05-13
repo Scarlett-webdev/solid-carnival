@@ -1,0 +1,11 @@
+.profile-box {
+  margin-top: 50px;
+  line-height: 2em;
+}
+
+.profile-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px;
+}

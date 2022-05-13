@@ -1,0 +1,17 @@
+body {
+  padding-top: 20px;
+}
+
+img {
+  height: 200px;
+}
+
+.cutoff {
+  margin-top: 90px;
+  margin-left: -120px;
+}
+
+.cutOffBlock {
+  position: absolute;
+  right: 5%;
+}

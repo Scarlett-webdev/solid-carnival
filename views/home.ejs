@@ -1,0 +1,222 @@
+<%- include("partials/masterHeader") -%>
+
+    <link rel="stylesheet" href="/css/home-styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;600&family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
+  </head>
+  <body>
+
+
+  <div class="main-left">
+
+    <%- include("partials/top") -%>
+
+    <div class="middle">
+      <div class="sidebar-profile">
+        <a href="/profile"><img src="Images/side-profile.png" alt="profile"></a>
+        <img src="Images/side-friends.png" alt="friends">
+        <img src="Images/side-band-love.png" alt="band-love">
+        <img src="Images/side-wristband.png" alt="wristbands">
+        <img src="Images/side-blocked.png" alt="blocked">
+        <a href="/logout"><h4> logout </h4></a>
+      </div>
+
+      <div class="main-screen">
+        <div class="main-row-1">
+          <a href="/bar"><img src="Images/main-bar.png" alt="bar"></a>
+          <a href="/chat"><img src="Images/main-chat.png" alt="chat"></a>
+          <img src="Images/main-arcade.png" alt="arcade">
+        </div>
+        <div class="main-row-2">
+          <a href="/stage"><img src="Images/main-stage.png" alt="stage"></a>
+          <img src="Images/main-food.png" alt="food">
+          <img src="Images/main-bathroom.png" alt="bathroom">
+        </div>
+        <div class="main-row-3">
+          <img src="Images/main-merch.png" alt="merch">
+          <img src="Images/main-backstage.png" alt="backstage">
+        </div>
+      </div>
+
+    <div class="bottom">
+      <h4>privacy policy</h4>
+      <h4>&copy 2020</h4>
+      <h4>contact us</h4>
+    </div>
+  </div>
+  </div>
+
+
+    <div class="sidebar-chat">
+      <div class="search-col">
+        <form class="search-form" action="index.html" method="post">
+          <input type="text" name="search" placeholder="find a friend or band">
+          <button type="button" name="search-button">search</button>
+        </form>
+      </div>
+      <div class="online-col">
+        <h3>Online</h3>
+      </div>
+      <div class="band-col">
+        <div class="picture-row">
+          <img src="Images/selfies/band.png" alt="band">
+        </div>
+        <div class="profile-row">
+          <div class="profile-icon-cir">
+            <div class="circle"></div>
+          </div>
+          <div class="profile-name-col">
+            <h5>The Band</h5>
+            <h5>Denver, CO</h5>
+          </div>
+          <div class="profile-icon-col">
+            <img src="Images/empty-heart.png" class="empty-heart" alt="show-love">
+          </div>
+        </div>
+      </div>
+      <div class="words-col">
+        <h3>friends</h3>
+      </div>
+      <div class="profile-col">
+        <div class="picture-row">
+          <img src="Images/selfies/2.png" alt="2">
+        </div>
+        <div class="profile-row">
+          <div class="profile-icon-cir">
+            <div class="circle-blue"></div>
+          </div>
+          <div class="profile-name-col">
+            <h5>Jenny</h5>
+            <h5>Denver, CO</h5>
+          </div>
+          <div class="profile-icon-col">
+            <img src="Images/pro-hi.png" class="empty-heart" alt="hi">
+            <img src="Images/pro-block.png" class="empty-heart" alt="block">
+            <img src="Images/pro-report.png" class="empty-heart" alt="report">
+          </div>
+        </div>
+      </div>
+      <div class="profile-col">
+        <div class="picture-row">
+          <img src="Images/selfies/3.png" alt="3">
+        </div>
+        <div class="profile-row">
+          <div class="profile-icon-cir">
+            <div class="circle"></div>
+          </div>
+          <div class="profile-name-col">
+            <h5>Danny</h5>
+            <h5>Denver, CO</h5>
+          </div>
+          <div class="profile-icon-col">
+            <img src="Images/pro-hi.png" class="empty-heart" alt="hi">
+            <img src="Images/pro-block.png" class="empty-heart" alt="block">
+            <img src="Images/pro-report.png" class="empty-heart" alt="report">
+          </div>
+        </div>
+      </div>
+      <div class="profile-col">
+        <div class="picture-row">
+          <img src="Images/selfies/4.png" alt="4">
+        </div>
+        <div class="profile-row">
+          <div class="profile-icon-cir">
+            <div class="circle-blue"></div>
+          </div>
+          <div class="profile-name-col">
+            <h5>Cris</h5>
+            <h5>Denver, CO</h5>
+          </div>
+          <div class="profile-icon-col">
+            <img src="Images/pro-hi.png" class="empty-heart" alt="hi">
+            <img src="Images/pro-block.png" class="empty-heart" alt="block">
+            <img src="Images/pro-report.png" class="empty-heart" alt="report">
+          </div>
+        </div>
+      </div>
+      <div class="words-col">
+        <h3>other people</h3>
+      </div>
+      <div class="profile-col">
+        <div class="picture-row">
+          <img src="Images/selfies/5.png" alt="5">
+        </div>
+        <div class="profile-row">
+          <div class="profile-icon-cir">
+            <div class="circle-clear"></div>
+          </div>
+          <div class="profile-name-col">
+            <h5>Helen</h5>
+            <h5>Denver, CO</h5>
+          </div>
+          <div class="profile-icon-col">
+            <img src="Images/pro-hi.png" class="empty-heart" alt="hi">
+            <img src="Images/pro-add.png" class="empty-heart" alt="add">
+            <img src="Images/pro-block.png" class="empty-heart" alt="block">
+            <img src="Images/pro-report.png" class="empty-heart" alt="report">
+          </div>
+        </div>
+      </div>
+      <div class="profile-col">
+        <div class="picture-row">
+          <img src="Images/selfies/6.png" alt="6">
+        </div>
+        <div class="profile-row">
+          <div class="profile-icon-cir">
+            <div class="circle-red"></div>
+          </div>
+          <div class="profile-name-col">
+            <h5>Greg</h5>
+            <h5>Denver, CO</h5>
+          </div>
+          <div class="profile-icon-col">
+            <img src="Images/pro-hi.png" class="empty-heart" alt="hi">
+            <img src="Images/pro-add.png" class="empty-heart" alt="add">
+            <img src="Images/pro-block.png" class="empty-heart" alt="block">
+            <img src="Images/pro-report.png" class="empty-heart" alt="report">
+          </div>
+        </div>
+      </div>
+      <div class="profile-col">
+        <div class="picture-row">
+          <img src="Images/selfies/7.png" alt="7">
+        </div>
+        <div class="profile-row">
+          <div class="profile-icon-cir">
+            <div class="circle-clear"></div>
+          </div>
+          <div class="profile-name-col">
+            <h5>Tina</h5>
+            <h5>Denver, CO</h5>
+          </div>
+          <div class="profile-icon-col">
+            <img src="Images/pro-hi.png" class="empty-heart" alt="hi">
+            <img src="Images/pro-add.png" class="empty-heart" alt="add">
+            <img src="Images/pro-block.png" class="empty-heart" alt="block">
+            <img src="Images/pro-report.png" class="empty-heart" alt="report">
+          </div>
+        </div>
+      </div>
+      <div class="words-col">
+        <h3>offline</h3>
+      </div>
+        <div class="profile-col">
+          <div class="picture-row">
+            <img src="Images/selfies/8.png" alt="8">
+          </div>
+          <div class="profile-row">
+            <div class="profile-icon-cir">
+            </div>
+            <div class="profile-name-col">
+              <h5>Kyle</h5>
+              <h5>Denver, CO</h5>
+            </div>
+            <div class="profile-icon-col">
+              <img src="Images/pro-hi.png" class="empty-heart" alt="hi">
+              <img src="Images/pro-block.png" class="empty-heart" alt="block">
+              <img src="Images/pro-report.png" class="empty-heart" alt="report">
+            </div>
+          </div>
+        </div>
+  </div>
+  </body>
+  </html>

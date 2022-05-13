@@ -1,0 +1,133 @@
+ body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body {
+  background: rgb(245,246,246); /* Old browsers */
+background: -moz-linear-gradient(45deg, rgba(245,246,246,1) 0%, rgba(219,220,226,1) 21%, rgba(184,186,198,1) 49%, rgba(221,223,227,1) 80%, rgba(245,246,246,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(45deg, rgba(245,246,246,1) 0%,rgba(219,220,226,1) 21%,rgba(184,186,198,1) 49%,rgba(221,223,227,1) 80%,rgba(245,246,246,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(45deg, rgba(245,246,246,1) 0%,rgba(219,220,226,1) 21%,rgba(184,186,198,1) 49%,rgba(221,223,227,1) 80%,rgba(245,246,246,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5f6f6', endColorstr='#f5f6f6',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+body {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+button {
+  width: 100%;
+  padding: 5px 10px;
+}
+
+h1, h2 {
+  margin-bottom: 20px;
+  font-family: 'Suravaram', serif;
+}
+h3 {
+  font-family: 'Lora', serif;
+}
+
+.form-container {
+  background-color: white;
+  box-shadow: 2px 2px 2px 0 darkgray;
+  width: 65%;
+  margin: 0;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3%;
+}
+
+.logster button {
+  background-color: rgba(184,186,198,1);
+  border-radius: 6px;
+  border: 3px solid black;
+  margin-top: 20px;
+  /* padding-bottom: 20px; */
+  width: 90%;
+}
+.logster-switch button {
+  background: none;
+  border: none;
+  margin-top: 40px;
+}
+
+
+.checkbox {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-top: 10px;
+  width: 100%;
+}
+.checkbox label {
+  margin-left: 10px;
+}
+
+.top {
+  width: 95%;
+  padding-top: 20px;
+}
+.top a, .top a:visited {
+  color: black;
+}
+.bottom {
+  position: fixed;
+  bottom: 0;
+  width: 95%;
+}
+
+
+
+
+/*
+
+.cutOff {
+  background-image: url("/Images/going-home.png");
+  width: 90%;
+  padding: 10px;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border: 2px black solid;
+  border-radius: 2px;
+}
+
+.cutOffBlock {
+  background-color: black;
+  color: white;
+  padding: 0px;
+  font-family: 'Chilanka', serif;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 4px;
+}
+.cutImgBut button {
+  width: 80%;
+  margin-right: 15px;
+  padding: 5px 25px;
+}
+.logsterButton {
+  background-color: rgba(184,186,198,1);
+  border-radius: 6px;
+  border: 3px solid black;
+  margin-top: 20px;
+  width: 70%;
+  padding: 5px 5px;
+  text-align: center;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.logsterButton a, a:visited {
+  color: black;
+} */

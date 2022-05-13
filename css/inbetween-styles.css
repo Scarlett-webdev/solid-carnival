@@ -1,0 +1,80 @@
+body {
+  background-image: url("/Images/diag-back.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  font-family: 'Montserrat', sans-serif;
+
+  margin-top: 10px;
+  margin-left: -30px;
+}
+h3 {
+  margin-top: 10px;
+  font-family: 'Raleway', sans-serif;
+}
+h4, p {
+  margin-top: 10px;
+  font-family: 'Roboto Slab', serif;
+}
+
+button {
+  background-color: rgb(61, 164, 171);
+  color: rgba(255, 255, 255, 0.87);
+  padding: 15px 100px;
+  border-radius: 8px;
+  /* border: black solid 1.5px; */
+  border: none;
+  text-align: center;
+  margin: 0;
+  margin-top: 10px;
+  font-size: 1em;
+  font-family: 'Raleway', sans-serif;
+  box-shadow: 2px 4px 4px 0 #808080;
+}
+
+button:hover {
+  box-shadow: 1px 2px 2px 0 #808080;
+}
+button:active {
+  box-shadow: .25px .5px .5px 0 #808080;
+}
+
+
+.top {
+  width: 95%;
+}
+.mid-back {
+  background-color: rgba(246, 205, 97, 1);
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 2px;
+  padding: 20px;
+  padding-bottom: 30px;
+  margin-top: 10%;
+}
+.bottom {
+  position: fixed;
+  bottom: 5px;
+  /* color: rgba(246, 205, 97, 1); */
+  color: rgba(255, 255, 255, 0.87);
+
+  width: 95%;
+}
+
+.middle-insides {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  padding-bottom: 15px;
+}

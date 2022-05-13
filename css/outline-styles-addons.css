@@ -1,0 +1,36 @@
+.mid-list-1 {
+  width: 65%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 250px;
+}
+
+
+.mid-list-2 {
+  width: 65%;
+  text-align: right;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 250px;
+}
+
+#drank-img {
+  position: absolute;
+  top: 2880px;
+  left: 10px;
+  height: 300px;
+}
+#merch-img {
+  position: absolute;
+  top: 4000px;
+  right: 50px;
+  width: 20%;
+  z-index: -1;
+}
+#rainient {
+  display: none;
+}

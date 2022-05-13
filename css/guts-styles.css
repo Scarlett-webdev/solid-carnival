@@ -1,0 +1,145 @@
+.guts {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 99%;
+  height: 450px;
+  overflow: scroll;
+}
+
+.guts video {
+  display: block;
+  max-height: 400px;
+  max-width: 90%;
+  margin: 0;
+  margin-left: -10px;
+}
+
+
+.bar {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  color: #f4e5c2;
+  width: 90%;
+  /* background-color: lightpink; */
+  /* padding-right: 30px; */
+}
+.bar-options {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.drink-row {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 10px;
+}
+.bar-options button{
+  background: none;
+  border-radius: 8px;
+  margin: 10px;
+  width: 100%;
+  border: #f4e5c2 1px solid;
+  color: #f4e5c2;
+  padding: 10px 5px;
+  box-shadow: 0 10px 13px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.bar-options button:hover {
+  background-color: #4d3e3e;
+  box-shadow: 0 2px 6px 0 rgba(0,0,0,0.24), 0 7px 40px 0 rgba(0,0,0,0.19);
+}
+.bar-options h1 {
+  margin-bottom: 10px;
+  margin-left: 20px;
+}
+.bar-form {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+/*
+.drink-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-right: 20px;
+
+} */
+
+.events {
+  display: flex;
+  flex-direction: row;
+}
+.events img {
+  max-width: 500px;
+}
+.event-row {
+  display: flex;
+  flex-direction: column;
+}
+
+.insideChat {
+  display: flex;
+  justify-content: space-around;
+  width: 60%;
+}
+
+.insideChat img {
+  display: flex;
+  max-width: 99%;
+  max-height: 440px;
+}
+
+.chat {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 40%;
+  color: #6db193;
+  overflow: scroll;
+}
+
+.chat h2 {
+  /* background-color: #4d3e3e; */
+  padding: 5px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.chat img {
+  height: 70px;
+  width: 70px;
+  border-radius: 50px;
+  margin: 15px;
+}
+.chat .people {
+  margin: 120px;
+}
+.new-mess img {
+  border: #BEEDC3 solid 3px;
+  box-shadow: 0 2px 2px 0 #32e0c4;
+}
+.old-mess img {
+  border: #BECAED solid 3px;
+  box-shadow: 0 2px 2px 0 #150485;
+}
+.unknown-new-mess img {
+  border: #EDBEBE solid 3px;
+  box-shadow: 0 2px 2px 0 #b83b5e;
+}
+
+
+
+#greenH {
+  margin-left: 10px;
+}

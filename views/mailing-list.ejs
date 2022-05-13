@@ -1,0 +1,52 @@
+<%- include("partials/masterHeader") -%>
+
+    <link rel="stylesheet" href="/css/mobile-css/mail-styles.css" media="screen and (max-width:1000px)">
+    <link rel="stylesheet" href="/css/mail-styles.css" media="screen and (min-width:1001px)">
+
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Raleway&family=Playfair+Display&display=swap" rel="stylesheet">
+
+  </head>
+  <body>
+
+    <div class="full-back">
+      <div class="t-back">
+        <div class="left-side">
+          <img class="web-pic" src="/Images/Dive-Bar-Venue.png" alt="join mailing list">
+          <img class="mobile-pic" src="/Images/Mobile-DBV.png" alt="join mailing list">
+        </div>
+        <div class="right-side">
+          <img src="/Images/ml-icon-old.png" alt="icon">
+          <div class="form-container">
+
+            <form class="mail-form" action="/mailing-list" method="post">
+
+              <input type="text" name="fName" placeholder="first name" required>
+              <input type="text" name="lName" placeholder="last name">
+              <input type="text" name="email" placeholder="email address" required>
+              <input type="password" name="password" placeholder="desired password" required>
+              <div class="checkbox">
+                <input type="checkbox" class="age-check" name="age">
+                <label for="age" class="high-emph">I am over 21</label>
+              </div>
+              <p class="mlTitle">PLEASE JOIN OUR MAILING LIST</p>
+              <div class="checkbox">
+              <input type="checkbox" name="authCheck" class="authCheck">
+              <label for="authCheck" class="high-emph">I am neither a robot nor some sort of human-robot hybrid and I agree to allow you to let me know about cool stuff and the goings-on of the currently unnamed online dive bar venue project via email.</label>
+              </div>
+              <button type="submit" name="mailing-button" class="mail-button">Join Now!</button>
+              <h4 class="skip"><a href="/outline">Skip</a></h4>
+              <!-- <a href="/outline"><button type="button" class="mail-button-2">No</button></a> -->
+
+            </form>
+          <div class="extraInfo-container">
+            <p class="low-emph">&copy 2022</p>
+          </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+    </body>
+    </html>

@@ -1,0 +1,74 @@
+body {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+}
+
+h3 {
+  font-family: 'Nova Mono', monospace;
+}
+h4 {
+  font-family: 'Montserrat', sans-serif;
+  margin-right: 10px;
+}
+
+.top {
+  background-color: black;
+  color: white;
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  padding: 10px;
+  margin: 0;
+}
+
+.logster {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 20%;
+  margin-right: 5%;
+}
+.logster h3 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.middle {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+.middle img {
+  width: 100%;
+
+}
+
+.bottom {
+  position: fixed;
+  bottom: 0;
+  background-color: black;
+  color: white;
+
+}
+.tooltip{
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltip-text {
+  visibility: hidden;
+  width: 120px;
+  background-color: gray;
+  color: white;
+  text-align: center;
+  border-radius: 4px;
+  padding: 5px 0;
+  z-index: 1;
+  margin-left: 50px;
+
+}
+.tooltip:hover .tooltip-text{
+  visibility: visible;
+}

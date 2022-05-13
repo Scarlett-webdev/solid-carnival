@@ -1,0 +1,24 @@
+<div class="form-container">
+  <div class="logrow-container">
+
+  <img src="/Images/rockon-icon.png" id="rockon" alt="rockon">
+  <img src="/Images/ticket-icon.png" id="tix" alt="tix">
+
+
+  <div class="logstercol-container">
+  <h1>Welcome Back!</h1>
+  <form class="logster" action="/login" method="post">
+    <input type="text" name="username" placeholder="email address" required>
+    <input type="password" name="password" placeholder="password" required>
+    <button type="submit" name="logster-button">Login</button>
+  </form>
+  </div>
+  </div>
+
+
+  <form action="/logster" class="logster-switch" method="post" style="position:absolute; bottom:14%;">
+    <input type="text" name="toReg" value="switchBackButtonPressed" style="display:none">
+    <button type="submit">Don't have an account?</button>
+  </form>
+
+</div>

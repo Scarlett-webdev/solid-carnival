@@ -1,0 +1,212 @@
+body {
+  background-image: url("/Images/cotton-candy-background.jpg");
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 1.6;
+}
+h1 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 5em;
+}
+h2{
+  font-family: 'Abril Fatface', sans-serif;
+  font-size: 4em;
+}
+h3 {
+  font-family: 'Crimson Text', serif;
+  margin-top: 5px;
+}
+p, li{
+  font-family: 'Raleway', serif;
+  font-size: .9em;
+}
+
+.top {
+  width: 95%;
+  padding: 20px;
+}
+
+.middle-top {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  overflow: visible;
+  margin-top: 8%;
+  border: white solid medium;
+  width: 70%;
+  height: 400px;
+}
+
+.middle-bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.bottom {
+  background-image: url("/Images/cotton-candy-bottom.jpg");
+  color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 0;
+  text-align: center;
+  /* text-shadow: 1px 1px 0 rgba(0,0,0,0.24); */
+}
+.bottom a{
+  color: black;
+}
+
+.middle-top-title {
+  text-align: center;
+  line-height: .8;
+  z-index: 1;
+}
+.intro {
+  width: 65%;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 120px;
+  margin-bottom: 50px;
+  text-indent: 20px;
+}
+
+.intro p {
+  color: white;
+  font-family: 'Oswald', cursive;
+  font-size: 1.6em;
+}
+
+.around-midnight {
+  width:99%;
+  background-image: url("/Images/stars-background.png");
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -70px;
+}
+
+.mid-night {
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-top: 35px;
+  margin-bottom: 150px;
+  text-indent: 20px;
+}
+
+.mid-night p {
+  background-color: white;
+}
+
+.mid-night h3 {
+  background-color: white;
+}
+
+.mid-list-1 ul {
+  display: block;
+}
+.mid-list-1 li {
+  padding-left: 15px;
+}
+.mid-list-1 a {
+  color: black;
+}
+.mid-list-1 a:hover {
+  text-decoration: underline;
+}
+.mid-list-2 ul {
+  list-style-type: circle;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin-right: 5px;
+}
+.mid-list-2 h2 {
+  margin-left: 20px;
+}
+.mid-list-2 li {
+  padding-left: 15px;
+}
+
+.tour-button {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 200px;
+  margin-top: -50px;
+}
+
+.tour-button button {
+  background-image: url("/Images/tour-button-background.png");
+  background-image: url("/Images/cotton-candy-background.jpg");
+
+  background-size: cover;
+  background-position: top;
+font-family: 'Source Sans Pro', sans-serif;
+/* font-family: 'Crimson Text', serif; */
+
+
+  color: white;
+font-size: 1.5em;
+  background-position: bottom center;
+  border: white solid .25px;
+  border-radius: 100px;
+  padding: 60px 30px;
+  margin-bottom: 10px;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  /* text-shadow: 2px 2px 0 rgba(0,0,0,0.24); */
+}
+.tour-button button:hover {
+  box-shadow: 0 2px 6px 0 rgba(0,0,0,0.24), 0 7px 40px 0 rgba(0,0,0,0.19);
+}
+.tour-button button:active {
+  box-shadow: 0 1px 3px 0 rgba(0,0,0,0.24), 0 3.5px 20px 0 rgba(0,0,0,0.19);
+}
+
+.donate-button {
+  background-image: url("/Images/cotton-candy-bottom.jpg");
+  background-position: top right;
+  color: white;
+  border-radius: 6px;
+  border: white thin solid;
+  padding: 10px 20px;
+  text-shadow: 1px 1px 0 rgba(0,0,0,0.24);
+}
+
+.policy {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 95%;
+  margin-top: -30px;
+}
+
+#top-side-img {
+  position: absolute;
+  top: 210px;
+  left: 35px;
+  height: 250px;
+}
+#mid-side-img {
+  position: absolute;
+  top: 980px;
+  right: 35px;
+  height: 250px;
+}
+#big-circle {
+  position: absolute;
+  top: 9%;
+  width: 50%;
+}

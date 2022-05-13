@@ -1,0 +1,60 @@
+<%- include("partials/masterHeader") -%>
+
+<link rel="stylesheet" href="/css/core-styles.css">
+<link rel="stylesheet" href="/css/guts-styles.css">
+
+<link rel="stylesheet" href="/css/guts-styles-addons.css" media="screen and (min-width:1001px)">
+<link rel="stylesheet" href="/css/mobile-css/guts-styles.css" media="screen and (max-width:1000px)">
+
+
+<link href="https://fonts.googleapis.com/css2?family=B612+Mono:ital@1&family=Chilanka&family=Lora:ital@0;1&family=Suravaram&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <div class="main-bar">
+    <div class="main-icons">
+      <a href="/profile"><h3>profile</h3></a>
+      <h2>Online Dive Bar Venue</h2>
+      <a href="/logout">
+        <h3>done</h3>
+      </a>
+    </div>
+    <div class="icon-bar">
+      <div class="icon-icons">
+        <a href="/bar"><img src="Images/maincons/bar.png" class="i1" alt="bar"></a>
+        <a href="/stage"><img src="Images/maincons/stage.png" class="i4" alt="stage"></a>
+        <a href="/merch"><img src="Images/maincons/merch.png" class="i7" alt="merch"></a>
+        <a href="/chat"><img src="Images/maincons/chat.png" class="i2" alt="chat"></a>
+        <a href="/food"><img src="Images/maincons/food.png" class="i5" alt="food"></a>
+        <a href="/events"><img src="Images/maincons/events.png" class="i8" alt="backstage"></a>
+        <a href="/backstage"><img src="Images/maincons/backstage.png" class="i8" alt="backstage"></a>
+        <a href="/arcade"><img src="Images/maincons/arcade.png" class="i3" alt="arcade"></a>
+        <a href="/bathroom"><img src="Images/maincons/bathroom.png" class="i6" alt="bathroom"></a>
+      </div>
+      <div class="chat-bar">
+        <div class="chat-icons">
+
+          <%- include("partials/chatPeople") -%>
+
+        </div>
+        <div class="main-stage">
+          <div class="guts">
+
+            <%- include("partials/guts/" + guts) -%>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!-- <div class="after-class">
+  <img src="/Images/events/event-1.png" alt="event-1">
+</div> -->
+
+
+</body>
+
+</html>

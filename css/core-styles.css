@@ -1,0 +1,152 @@
+body {
+  overflow: hidden;
+  /* background-color: #4d3e3e; */
+  background-color: #f4e5c2;
+}
+h1 {
+  font-family: 'B612 Mono', monospace;
+}
+h2 {
+  font-family: 'Suravaram', serif;
+}
+h3 {
+  font-family: 'Lora', serif;
+}
+a, a:visited {
+  color: #fff3cd;
+  color: #4d3e3e;
+}
+
+
+.main-bar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  width: 100%;
+  background-color: #f4e5c2;
+  margin: 0;
+  padding: 0;
+  color: #4d3e3e;
+
+}
+.icon-bar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  background-color: #6db193;
+  margin-top: 10px;
+  border-radius: 12px;
+}
+.chat-bar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  background-color: #8559a5;
+  margin-top: 10px;
+  border-radius: 12px;
+}
+.main-stage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  height: 450px;
+  /* background-color: #ff926b; */
+  background-color: #323232;
+  margin: 10px 0 50px 0;
+  border-radius: 12px;
+}
+
+.bottom {
+  position: fixed;
+  bottom: 0;
+  width: 95%;
+}
+
+
+.main-icons {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin: 0;
+  margin-top: -10px;
+}
+.icon-icons {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-end;
+  margin-top: 10px;
+}
+.icon-icons img {
+  height: 30px;
+  width: 30px;
+}
+.chat-icons {
+  width: 85%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: 10px;
+  overflow-x: scroll;
+  padding: 5px;
+  background-color: #f4e5c2;
+  border-radius: 12px;
+}
+.chat-icons img {
+  height: 30px;
+  width: 30px;
+  border-radius: 50px;
+}
+/* .chat-icons img:hover{
+  height: 60px;
+  width: 60px;
+  border-radius: 50px;
+} */
+.people {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+margin-right: 8px;
+margin-left: 8px;
+}
+.offline {
+  opacity: .5;
+}
+.band {
+  margin-right: 5px;
+  margin-left: 5px;
+  width: 55px;
+}
+
+
+
+.after-class {
+  position: relative;
+  background-color: white;
+  height: 3500px;
+  margin-top: -10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  z-index: 1;
+}
+
+.after-class img {
+  margin-top: 20px;
+  width: 99%;
+}
+
+
+.cutOffBlock a:hover {
+  text-decoration: underline;
+}

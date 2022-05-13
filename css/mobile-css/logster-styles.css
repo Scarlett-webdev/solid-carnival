@@ -1,0 +1,63 @@
+.form-container {
+  position: absolute;
+  top: 10%;
+  bottom: 10%;
+
+}
+
+.logster, .logstercol-container, .logrow-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.checkbox {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+input.age-check {
+  height: 250px;
+  width: 250px;
+}
+
+label {
+  font-size: 2.1em;
+}
+
+input[type=text],input[type=password] {
+  border: none;
+  border-bottom: black 1px dotted;
+  width: 100%;
+  font-size: 2.5em;
+}
+
+button {
+  font-size: 2.5em;
+}
+
+h3 {
+  font-size: 2em;
+}
+
+h4 {
+  font-size: 1.6em;
+}
+
+
+
+.bottom h4 {
+  font-size: 1.8em;
+}
+
+#rockon {
+    display: none;
+}
+
+#tix {
+  width: 60%;
+}

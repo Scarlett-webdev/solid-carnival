@@ -1,0 +1,66 @@
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+  display: block;
+}
+
+h1 {
+  font-size: 3em;
+}
+h2 {
+  font-size: 2em;
+}
+h3 {
+  font-size: 1em;
+}
+h4 {
+  font-size: .75em;
+}
+h5 {
+  font-size: .5em;
+}
+h6 {
+  font-size: .25em;
+}
+a, a:visited {
+  color: white;
+  text-decoration: none;
+  display: block;
+}
+/* a:hover, button:hover {
+  cursor: url(/Images/rock-hands-2.png), auto;
+} */
+
+.high-emph {
+  color: rgba(255, 255, 255, 0.87);
+}
+
+.low-emph {
+  color: rgba(255, 255, 255, 0.67);
+}
+
+.checkbox {
+  display: flex;
+  flex-direction: row;
+}
+
+.top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  padding: 5px;
+}

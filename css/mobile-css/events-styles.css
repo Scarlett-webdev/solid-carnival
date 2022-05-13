@@ -1,0 +1,18 @@
+.top h3 {
+  font-size: 2.8em;
+}
+.bottom h4 {
+  font-size: 1.6em;
+}
+
+.logster {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 20%;
+  margin-right: 5%;
+}
+
+.middle {
+  margin-top: 150px;
+}

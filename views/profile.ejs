@@ -1,0 +1,31 @@
+<%- include("partials/masterHeader") -%>
+<link rel="stylesheet" href="/css/core-styles.css">
+<link rel="stylesheet" href="/css/profile-styles.css">
+<link href="https://fonts.googleapis.com/css2?family=B612+Mono:ital@1&family=Chilanka&family=Lora:ital@0;1&family=Suravaram&display=swap" rel="stylesheet">
+
+  </head>
+  <body>
+      <div class="main-bar">
+        <div class="main-icons">
+          <a href="/home"><h3>home</h3></a>
+          <h2>Online Dive Bar Venue</h2>
+          <a href="/logout">
+            <h3>done</h3>
+          </a>
+        </div>
+
+      <div class="profile-box">
+
+        <h1>Hello <%= fName %>!</h1> <br>
+        <div class="profile-info">
+
+        <h3>your first name is: <%= fName %></h3>
+        <h3>your last name is: <%= lName %></h3>
+        <h3>your email address is: <%= email %></h3>
+        <h3>you <%= ageVer %> over 21</h3>
+
+      </div>
+
+      </div>
+
+  <%- include("partials/masterFooter") -%>

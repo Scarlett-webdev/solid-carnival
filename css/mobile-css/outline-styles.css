@@ -1,0 +1,90 @@
+p, li {
+  font-size: 1.6em;
+}
+h3 {
+  font-size: 1.6em;
+}
+
+.top h3 {
+  font-size: 2.1em;
+}
+
+.middle-top h3 {
+  font-size: 1.8em;
+}
+
+.middle-top {
+  height: 450px;
+}
+
+.intro {
+  width: 65%;
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 70px;
+  margin-bottom: 80px;
+  text-indent: 20px;
+}
+
+.mid-list-1 {
+  width: 65%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 250px;
+}
+
+.mid-list-2 {
+  width: 65%;
+  /* text-align: right; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 250px;
+}
+
+.extra li {
+  display: none;
+}
+
+.around-midnight {
+  margin-top: -400px;
+}
+
+.around-midnight h2 {
+  margin-right: 20px;
+}
+
+.mid-night h3 {
+  font-size: 2.1em;
+
+}
+
+.donate-button {
+  font-size: 1.8em;
+}
+
+#drank-img {
+  position: absolute;
+  top: 6660px;
+  left: -500px;
+  height: 1000px;
+  z-index: -1;
+}
+#merch-img {
+  display: none;
+}
+#rainient {
+  /* position: absolute;
+  top: 4200px;
+  right: 20px;
+  width: 80%;
+  z-index: -1; */
+  width: 80%;
+  margin-top: -200px;
+  margin-bottom: 50px;
+}
